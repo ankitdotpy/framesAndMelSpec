@@ -53,6 +53,7 @@ def extract_melspec(in_path,out_path):
 
             try:
                 spec_path = specs_path/f'mspec_{spec_id}.png'
+                iio.imwrite(spec_path,mel_spec_db)
                 print(f'Finished processing {specs_path}\n')
             except Exception as exp:
                 print(f'Error saveing MelSpec for {path.parent.name/path.name}\nException occured - {exp}\n')
