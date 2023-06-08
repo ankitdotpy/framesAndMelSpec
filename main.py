@@ -55,5 +55,3 @@ if __name__ == '__main__':
     p2.join()
 
     print('Program exited...\n')
-
-    get_mel_spec(audio_in,audio_out)
