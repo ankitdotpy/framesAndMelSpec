@@ -8,7 +8,7 @@ Simple and convinient python tool to extract frames from videos for furthur anal
 1. OpenCV
 1. Fire
 
-Install requirements using 
+<!-- Install requirements using 
 ```bash 
 pip install -r requirements.txt
-```
+``` -->
